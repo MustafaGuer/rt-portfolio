@@ -1,8 +1,9 @@
+import GreetingSection from "./components/GreetingSection/GreetingSection";
+
 function App() {
   return (
     <>
-      <div>
-      </div>
+      <GreetingSection />
     </>
 
   );
