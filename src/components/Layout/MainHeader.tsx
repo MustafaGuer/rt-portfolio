@@ -2,8 +2,8 @@ import React, {useContext, useState} from "react";
 import {ThemeContext} from "../../context/ThemeContext";
 
 import styles from './MainHeader.module.scss';
-import DarkModeIcon from "../../icons/DarkModeIcon";
-import LightModeIcon from "../../icons/LightModeIcon";
+import DarkModeIcon from "../../assets/icons/DarkModeIcon";
+import LightModeIcon from "../../assets/icons/LightModeIcon";
 
 export const MainHeader = () => {
   const {theme, setThemeMode} = useContext(ThemeContext);
@@ -24,7 +24,7 @@ export const MainHeader = () => {
   }
 
   return (
-    <header className={`${styles.header} ${theme === 'dark' ? 'bgDarkGlass txtDark' : 'bgLightGlass txtLight'}`}>
+    <header className={`${styles.header} ${theme === 'dark' ? 'bgDarkGlass txtDark' : 'bgLightGlass txtDark'}`}>
       <div className={styles.navbar}>
         <nav>
           <h1>MG</h1>
