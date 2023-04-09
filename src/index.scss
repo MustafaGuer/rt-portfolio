@@ -1,18 +1,61 @@
-@import "styles/variables";
 @import "styles/mixins";
+@import "styles/colors";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+a {
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.txtLight {
+  color: $dark-900;
+}
+
+.bgLight {
+  background-color: $white;
+}
+
+.txtDark {
+  color: $white;
+}
+
+.bgDark {
+  background-color: $dark-700;
+}
+
+.bgDarkGlass {
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+}
+
+.ngLightGlass {
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
 
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
