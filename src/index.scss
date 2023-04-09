@@ -4,6 +4,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -13,14 +15,16 @@ html {
 body {
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+  height: 100vh;
+  background-color: #000;
+  background-image: url("../public/images/hacker.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 ul {
@@ -37,6 +41,12 @@ ul {
   background-color: $white;
 }
 
+.bgLightGlass {
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
 .txtDark {
   color: $white;
 }
@@ -51,11 +61,6 @@ ul {
   -webkit-backdrop-filter: blur(6.3px);
 }
 
-.ngLightGlass {
-  background: rgba(255, 255, 255, 0.22);
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
-}
 
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
