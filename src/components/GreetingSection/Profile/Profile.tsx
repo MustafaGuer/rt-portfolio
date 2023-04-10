@@ -5,7 +5,7 @@ import profileImg from '../../../assets/images/mustafa.jpg';
 
 const Profile = () => {
   const [text, setText] = useState('')
-  const [fulltext, setFulltext] = useState(
+  const [fulltext] = useState(
     'Hi, this is Mustafa Gür. Passionate Frontend Developer!'
   )
   const [index, setIndex] = useState(0)
@@ -26,7 +26,7 @@ const Profile = () => {
     return () => {
       clearTimeout(timeout);
     }
-  }, [index, go])
+  }, [index, go, text, fulltext])
 
   return <div className={styles.container}>
     <h1>{text}</h1>
