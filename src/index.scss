@@ -39,7 +39,7 @@ ul {
 }
 
 .bgLightGlass {
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
 }
@@ -58,6 +58,13 @@ ul {
   -webkit-backdrop-filter: blur(6.3px);
 }
 
+.shadowDark {
+  box-shadow: 1px 2px 8px 3px rgba(255, 255, 255, 0.4);
+}
+
+.shadowLight {
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.4);
+}
 
 /* ===== Scrollbar CSS ===== */
 /* Firefox */

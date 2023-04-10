@@ -24,7 +24,7 @@ export const MainHeader = () => {
   }
 
   return (
-    <header className={`${styles.header} ${theme === 'dark' ? 'bgDarkGlass txtDark' : 'bgLightGlass txtDark'}`}>
+    <header className={`${styles.header} ${theme === 'dark' ? 'bgDarkGlass txtDark' : 'bgLightGlass txtLight'}`}>
       <div className={styles.navbar}>
         <nav>
           <h1>MG</h1>
