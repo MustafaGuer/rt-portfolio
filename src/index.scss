@@ -87,3 +87,32 @@ ul {
   border-radius: 10px;
   border: 1px solid #f2f2f2;
 }
+
+
+.text-sphere {
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text-sphere-desktop {
+
+}
+
+.tagcloud {
+  display: inline-block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.0625rem;
+  font-size: 1.3rem;
+}
+
+.tagcloud--item {
+  text-transform: uppercase;
+}
