@@ -1,0 +1,37 @@
+@use '../../styles/colors' as *;
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+.section {
+  padding: 2rem 1rem;
+
+  h2 {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+  }
+
+  .works {
+
+    .workItem {
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+      }
+
+      .workDescription {
+
+        h4 {
+          font-size: 0.8rem;
+          font-family: 'Alkatra', sans-serif;
+          color: $secondary;
+        }
+
+        h3 {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}
+
