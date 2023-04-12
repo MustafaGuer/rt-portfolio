@@ -30,7 +30,9 @@ const Profile = () => {
 
   return <div className={styles.container}>
     <h1>{text}</h1>
-    {go && <div className={styles.imageContainer}><img src={profileImg} alt={'Profile'} /></div>}
+    {go && <div className={styles.imageContainer}>
+      <img src={profileImg} alt={'Profile'} />
+    </div>}
   </div>
 }
 

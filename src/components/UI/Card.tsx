@@ -7,7 +7,7 @@ const Card: React.FC<{ children: React.ReactNode }> = (props) => {
 
   return (
     <div
-      className={`${styles.card} ${theme === 'dark' ? 'bgDark txtDark shadowDark' : 'bgLight txtLight shadowLight'}`}>
+      className={`${styles.card} ${theme === 'dark' ? 'bgLightGlass txtDark shadowDark' : 'bgDarkGlass txtDark shadowLight'}`}>
       {props.children}
     </div>
   );
