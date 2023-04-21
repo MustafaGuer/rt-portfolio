@@ -1,6 +1,6 @@
-import GreetingSection from "./components/GreetingSection/GreetingSection";
-import About from "./components/AboutSection/About";
-import Works from "./components/WorksSection/Works";
+import GreetingSection from "./components/Greeting/GreetingSection";
+import About from "./components/About/About";
+import Works from "./components/Works/Works";
 
 function App() {
   return (

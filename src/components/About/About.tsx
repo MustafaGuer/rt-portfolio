@@ -14,7 +14,7 @@ const About = () => {
       <div className={styles.aboutBox}>
         <img className={styles.profileImg} src={profileImg} alt='Profile' />
         <div className={styles.profileBox}>
-          <Card>
+          <Card rounded>
             <h2>Hi, I'm Mustafa.</h2>
             <img src={hacker} alt='Profile' />
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore inventore mollitia quasi quisquam

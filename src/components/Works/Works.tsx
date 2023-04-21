@@ -25,7 +25,7 @@ const Works = () => {
             <div className={styles.workDescription}>
               <h4>{work.short_desc}</h4>
               <h3>{work.title}</h3>
-              <Card>
+              <Card rounded={false}>
                 <p>{work.long_desc}</p>
               </Card>
               <div className={styles.workTechnologies}>
