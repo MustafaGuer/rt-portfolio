@@ -1,4 +1,4 @@
-type Work = {
+interface Work {
   id: string;
   short_desc: string;
   title: string;
