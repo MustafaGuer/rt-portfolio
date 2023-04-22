@@ -35,6 +35,9 @@
 
     button {
       font: inherit;
+      position: relative;
+      display: flex;
+      align-items: center;
       background-color: #240370;
       color: white;
       border: 2px solid #240370;

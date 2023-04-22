@@ -1,15 +1,19 @@
-import React, {FormEvent, useRef} from "react";
+import React, {FormEvent, useContext, useRef, useState} from "react";
 
-import fd from "../../models/FormData";
+import emailjs from '@emailjs/browser';
+import {Comment} from "react-loader-spinner";
+import {toast, ToastContainer} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import Card from "../UI/Card";
-import styles from './ContactForm.module.scss';
 import useInput from "../../hooks/useInput";
+import styles from './ContactForm.module.scss';
+import {ThemeContext} from "../../context/ThemeContext";
 
-const ContactForm: React.FC<{ onSubmitHandler: (fd: fd) => void }> = (props) => {
-  // const nameRef = useRef<HTMLInputElement>(null);
-  // const emailRef = useRef<HTMLInputElement>(null);
-  // const messageRef = useRef<HTMLTextAreaElement>(null);
+const ContactForm: React.FC<{}> = () => {
+  const form = useRef<HTMLFormElement>(null);
+  const {theme} = useContext(ThemeContext);
+  const [isSending, setIsSending] = useState(false);
 
   const {
     value: enteredName,
@@ -40,23 +44,52 @@ const ContactForm: React.FC<{ onSubmitHandler: (fd: fd) => void }> = (props) => 
 
   let formIsValid = false;
 
-  if(enteredNameIsValid && enteredEmailIsValid && enteredMessageIsValid) {
+  if (enteredNameIsValid && enteredEmailIsValid && enteredMessageIsValid) {
     formIsValid = true;
   }
-
   const submitHandler = (event: FormEvent) => {
     event.preventDefault();
-    if(!formIsValid) {
+
+    if (!formIsValid) {
       return;
     }
 
-    const formData: fd = {
-      name: enteredName,
-      email: enteredEmail,
-      message: enteredMessage
+    if (form.current) {
+      setIsSending(true);
+
+      emailjs.sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID as string,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID as string,
+        form.current,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      )
+        .then(result => {
+          toast.success('Email sent! I will contact you soon 😉', {
+            position: 'top-center',
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: false,
+            draggable: true,
+            progress: undefined,
+            theme: theme === 'dark' ? 'dark' : 'light'
+          });
+          setIsSending(false);
+        }, error => {
+          toast.error('Uups, something went wrong! Please try again or contact me at mustafaguer@outlook.com', {
+            position: 'top-center',
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: false,
+            progress: undefined,
+            theme: theme === 'dark' ? 'dark' : 'light'
+          });
+          setIsSending(false);
+        });
     }
 
-    props.onSubmitHandler(formData);
     resetNameInput();
     resetEmailInput();
     resetMessageHandler();
@@ -64,7 +97,7 @@ const ContactForm: React.FC<{ onSubmitHandler: (fd: fd) => void }> = (props) => 
 
   return (
     <Card rounded>
-      <form onSubmit={submitHandler} className={styles.form}>
+      <form ref={form} onSubmit={submitHandler} className={styles.form}>
         <div className={`${styles.control} ${nameInputHasError && styles.invalid}`}>
           <label htmlFor={'name'}>Your Name</label>
           <input
@@ -75,7 +108,6 @@ const ContactForm: React.FC<{ onSubmitHandler: (fd: fd) => void }> = (props) => 
             value={enteredName}
           />
           {nameInputHasError && <p className={`${styles['error-text']}`}>Name must not be empty!</p>}
-          {/*<input ref={nameRef} id={'name'} name={'name'} required />*/}
         </div>
         <div className={`${styles.control} ${emailInputHasError && styles.invalid}`}>
           <label htmlFor={'email'}>Your Email</label>
@@ -88,7 +120,6 @@ const ContactForm: React.FC<{ onSubmitHandler: (fd: fd) => void }> = (props) => 
           />
           {emailInputHasError &&
             <p className={`${styles['error-text']}`}>Email must be a valid form! (e.g. info@foo.bar)</p>}
-          {/*<input ref={emailRef} id={'email'} name={'email'} required />*/}
         </div>
         <div className={`${styles.control} ${messageInputHasError && styles.invalid}`}>
           <label htmlFor={'message'}>Your Message</label>
@@ -101,12 +132,22 @@ const ContactForm: React.FC<{ onSubmitHandler: (fd: fd) => void }> = (props) => 
             rows={3}
           ></textarea>
           {messageInputHasError && <p className={`${styles['error-text']}`}>Message must not be empty!</p>}
-          {/*<textarea ref={messageRef} id={'message'} name={'message'}></textarea>*/}
         </div>
         <div className={styles.actions}>
-          <button disabled={!formIsValid}>Send Message</button>
+          <button disabled={!formIsValid}>Send Message
+            <Comment
+              visible={isSending}
+              height={23}
+              width={23}
+              ariaLabel={'email-sending'}
+              backgroundColor={'#240370'}
+              color={'#fff'}
+              wrapperStyle={{position: 'absolute', top: '0', right: '0'}}
+            />
+          </button>
         </div>
       </form>
+      <ToastContainer />
     </Card>
   );
 };
