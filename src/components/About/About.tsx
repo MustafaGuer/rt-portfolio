@@ -18,9 +18,14 @@ const About = () => {
           <Card rounded>
             <h2>Hi, I'm Mustafa.</h2>
             <img src={hacker} alt='Profile' />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore inventore mollitia quasi quisquam
-               similique. Ad aliquid consectetur consequuntur delectus doloribus earum id numquam quia repellat tenetur?
-               Doloremque exercitationem id recusandae.</p>
+            <p>
+              I worked as a cab driver for five years. In 2021, I found myself passionate
+              about web development and went through an advanced training to become a web developer, specifically in
+              JavaScript and Angular. Since then, I've also furthered my education in React and Next.js and am now a
+              passionate web developer. I love to continuously learn new technologies and build projects. My experience
+              as a cab driver has shown me the importance of listening to other people's needs and finding solutions. As
+              a web developer, I strive to incorporate these skills into my work and create user-friendly solutions.
+            </p>
             <div className={styles.action}>
               <a href={resume} target='_blank' rel='noopener noreferrer'>Resume</a>
             </div>

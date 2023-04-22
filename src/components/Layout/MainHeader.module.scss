@@ -1,5 +1,4 @@
 @use '../../styles/colors' as *;
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
 
 .header {
   position: fixed;
@@ -20,7 +19,7 @@
 
     .logo {
       font-size: 1.5rem;
-      font-family: 'Alkatra', sans-serif;
+      font-family: 'Alkatra', serif;
     }
 
     nav {
