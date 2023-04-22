@@ -31,18 +31,13 @@ const Privacy = () => {
       </p>
       <p>
         Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme
-        erfasst. Das sind vor allem
-        technische Daten (z.&nbsp;B. Internetbrowser,
-        Betriebssystem oder Uhrzeit des Seitenaufrufs).
-        Die Erfassung dieser Daten erfolgt automatisch,
-        sobald Sie diese Website betreten.
+        erfasst. Das sind vor allem technische Daten (z.&nbsp;B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs).
+        Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
       </p>
       <h4>Wof&uuml;r nutzen wir Ihre Daten?</h4>
       <p>
-        Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung
-        der Website zu gew&auml;hrleisten. Andere Daten k&ouml;nnen zur
-        Analyse Ihres Nutzerverhaltens verwendet werden.
-      </p>
+        Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gew&auml;hrleisten. Andere Daten k&ouml;nnen zur
+        Analyse Ihres Nutzerverhaltens verwendet werden.</p>
       <h4>Welche Rechte haben Sie bez&uuml;glich Ihrer Daten?</h4>
       <p>
         Sie haben jederzeit das Recht, unentgeltlich Auskunft &uuml;ber Herkunft, Empf&auml;nger und Zweck Ihrer
@@ -65,41 +60,16 @@ const Privacy = () => {
           rel="noopener noreferrer">https://all-inkl.com/datenschutzinformationen/</a>.
       </p>
       <p>
-        Die Verwendung von All-Inkl
-        erfolgt auf Grundlage von
-        Art. 6 Abs. 1 lit. f DSGVO.
-        Wir haben ein berechtigtes
-        Interesse an einer
-        m&ouml;glichst
-        zuverl&auml;ssigen
-        Darstellung unserer
-        Website. Sofern eine
-        entsprechende Einwilligung
-        abgefragt wurde, erfolgt
-        die Verarbeitung
-        ausschlie&szlig;lich auf
-        Grundlage von Art. 6 Abs. 1
-        lit. a DSGVO und &sect; 25
-        Abs. 1 TTDSG, soweit die
-        Einwilligung die
-        Speicherung von Cookies
-        oder den Zugriff auf
-        Informationen im
-        Endger&auml;t des Nutzers
-        (z.&nbsp;B.
-        Device-Fingerprinting) im
-        Sinne des TTDSG umfasst.
-        Die Einwilligung ist
-        jederzeit widerrufbar.
+        Die Verwendung von All-Inkl erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes
+        Interesse an einer m&ouml;glichst zuverl&auml;ssigen Darstellung unserer Website. Sofern eine entsprechende Einwilligung
+        abgefragt wurde, erfolgt die Verarbeitung ausschlie&szlig;lich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und &sect; 25
+        Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endger&auml;t des Nutzers
+        (z.&nbsp;B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.
       </p>
       <h4>Auftragsverarbeitung</h4>
-      <p>
-        Wir haben einen Vertrag &uuml;ber Auftragsverarbeitung (AVV) zur Nutzung des oben
-        genannten Dienstes geschlossen. Hierbei handelt es sich um einen
-        datenschutzrechtlich vorgeschriebenen Vertrag, der gew&auml;hrleistet, dass
-        dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren
-        Weisungen und unter Einhaltung der DSGVO verarbeitet.
-      </p>
+      <p>Wir haben einen Vertrag &uuml;ber Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen
+        datenschutzrechtlich vorgeschriebenen Vertrag, der gew&auml;hrleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren
+        Weisungen und unter Einhaltung der DSGVO verarbeitet.</p>
       <h2>3. Allgemeine Hinweise und Pflicht&shy;informationen</h2>
       <h3>Datenschutz</h3>
       <p>
@@ -108,28 +78,9 @@ const Privacy = () => {
         Datenschutzvorschriften sowie dieser Datenschutzerkl&auml;rung.
       </p>
       <p>
-        Wenn Sie diese
-        Website benutzen,
-        werden verschiedene
-        personenbezogene
-        Daten erhoben.
-        Personenbezogene
-        Daten sind Daten,
-        mit denen Sie
-        pers&ouml;nlich
-        identifiziert
-        werden k&ouml;nnen.
-        Die vorliegende
-        Datenschutzerkl&auml;rung
-        erl&auml;utert,
-        welche Daten wir
-        erheben und
-        wof&uuml;r wir sie
-        nutzen. Sie
-        erl&auml;utert
-        auch, wie und zu
-        welchem Zweck das
-        geschieht.
+        Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten,
+        mit denen Sie pers&ouml;nlich identifiziert werden k&ouml;nnen. Die vorliegende Datenschutzerkl&auml;rung erl&auml;utert,
+        welche Daten wir erheben und wof&uuml;r wir sie nutzen. Sie erl&auml;utert auch, wie und zu welchem Zweck das geschieht.
       </p>
       <p>
         Wir weisen darauf hin, dass die Daten&uuml;bertragung im Internet (z.&nbsp;B. bei der Kommunikation per E-Mail)
@@ -159,98 +110,18 @@ const Privacy = () => {
          handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die
          L&ouml;schung nach Fortfall dieser Gr&uuml;nde.</p>
       <h3>Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website</h3>
-      <p>Sofern Sie in die
-         Datenverarbeitung
-         eingewilligt
-         haben,
-         verarbeiten wir
-         Ihre
-         personenbezogenen
-         Daten auf
-         Grundlage von
-         Art. 6 Abs. 1
-         lit. a DSGVO bzw.
-         Art. 9 Abs. 2
-         lit. a DSGVO,
-         sofern besondere
-         Datenkategorien
-         nach Art. 9 Abs.
-         1 DSGVO
-         verarbeitet
-         werden. Im Falle
-         einer
-         ausdr&uuml;cklichen
-         Einwilligung in
-         die &Uuml;bertragung
-         personenbezogener
-         Daten in
-         Drittstaaten
-         erfolgt die
-         Datenverarbeitung
-         au&szlig;erdem
-         auf Grundlage von
-         Art. 49 Abs. 1
-         lit. a DSGVO.
-         Sofern Sie in die
-         Speicherung von
-         Cookies oder in
-         den Zugriff auf
-         Informationen in
-         Ihr Endger&auml;t
-         (z.&nbsp;B. via
-         Device-Fingerprinting)
-         eingewilligt
-         haben, erfolgt
-         die
-         Datenverarbeitung
-         zus&auml;tzlich
-         auf Grundlage
-         von &sect; 25
-         Abs. 1 TTDSG. Die
-         Einwilligung ist
-         jederzeit
-         widerrufbar. Sind
-         Ihre Daten zur
-         Vertragserf&uuml;llung
-         oder zur
-         Durchf&uuml;hrung
-         vorvertraglicher
-         Ma&szlig;nahmen
-         erforderlich,
-         verarbeiten wir
-         Ihre Daten auf
-         Grundlage des
-         Art. 6 Abs. 1
-         lit. b DSGVO. Des
-         Weiteren
-         verarbeiten wir
-         Ihre Daten,
-         sofern diese zur
-         Erf&uuml;llung
-         einer rechtlichen
-         Verpflichtung
-         erforderlich sind
-         auf Grundlage von
-         Art. 6 Abs. 1
-         lit. c DSGVO. Die
-         Datenverarbeitung
-         kann ferner auf
-         Grundlage unseres
-         berechtigten
-         Interesses nach
-         Art. 6 Abs. 1
-         lit. f DSGVO
-         erfolgen. &Uuml;ber
-         die jeweils im
-         Einzelfall
-         einschl&auml;gigen
-         Rechtsgrundlagen
-         wird in den
-         folgenden
-         Abs&auml;tzen
-         dieser
-         Datenschutzerkl&auml;rung
-         informiert.</p>
+      <p>Sofern Sie in die Datenverarbeitung eingewilligt haben, verarbeiten wir Ihre personenbezogenen Daten auf
+         Grundlage von Art. 6 Abs. 1 lit. a DSGVO bzw. Art. 9 Abs. 2 lit. a DSGVO, sofern besondere Datenkategorien
+         nach Art. 9 Abs. 1 DSGVO verarbeitet werden. Im Falle einer ausdr&uuml;cklichen Einwilligung in die &Uuml;bertragung
+         personenbezogener Daten in Drittstaaten erfolgt die Datenverarbeitung au&szlig;erdem auf Grundlage von Art. 49 Abs. 1
+         lit. a DSGVO. Sofern Sie in die Speicherung von Cookies oder in den Zugriff auf Informationen in Ihr Endger&auml;t
+         (z.&nbsp;B. via Device-Fingerprinting) eingewilligt haben, erfolgt die Datenverarbeitung zus&auml;tzlich auf Grundlage
+         von &sect; 25 Abs. 1 TTDSG. Die Einwilligung ist jederzeit widerrufbar. Sind Ihre Daten zur Vertragserf&uuml;llung oder zur
+         Durchf&uuml;hrung vorvertraglicher Ma&szlig;nahmen erforderlich, verarbeiten wir Ihre Daten auf Grundlage des Art. 6 Abs. 1
+         lit. b DSGVO. Des Weiteren verarbeiten wir Ihre Daten, sofern diese zur Erf&uuml;llung einer rechtlichen Verpflichtung
+         erforderlich sind auf Grundlage von Art. 6 Abs. 1 lit. c DSGVO. Die Datenverarbeitung kann ferner auf Grundlage unseres
+         berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO erfolgen. &Uuml;ber die jeweils im Einzelfall einschl&auml;gigen
+         Rechtsgrundlagen wird in den folgenden Abs&auml;tzen dieser Datenschutzerkl&auml;rung informiert.</p>
       <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
       <p>Viele Datenverarbeitungsvorg&auml;nge sind nur mit
          Ihrer ausdr&uuml;cklichen Einwilligung m&ouml;glich.
@@ -270,71 +141,27 @@ const Privacy = () => {
          VERARBEITUNG NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN &Uuml;BERWIEGEN ODER DIE
          VERARBEITUNG DIENT DER GELTENDMACHUNG, AUS&Uuml;BUNG ODER VERTEIDIGUNG VON
          RECHTSANSPR&Uuml;CHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).</p>
-      <p>WERDEN IHRE
-         PERSONENBEZOGENEN DATEN
-         VERARBEITET, UM
-         DIREKTWERBUNG ZU
-         BETREIBEN, SO HABEN SIE
-         DAS RECHT, JEDERZEIT
-         WIDERSPRUCH GEGEN DIE
-         VERARBEITUNG SIE
-         BETREFFENDER
-         PERSONENBEZOGENER DATEN
-         ZUM ZWECKE DERARTIGER
-         WERBUNG EINZULEGEN; DIES
-         GILT AUCH F&Uuml;R DAS
-         PROFILING, SOWEIT ES MIT
-         SOLCHER DIREKTWERBUNG IN
-         VERBINDUNG STEHT. WENN
-         SIE WIDERSPRECHEN, WERDEN
-         IHRE PERSONENBEZOGENEN
-         DATEN ANSCHLIESSEND NICHT
-         MEHR ZUM ZWECKE DER
-         DIREKTWERBUNG VERWENDET
-         (WIDERSPRUCH NACH ART. 21
-         ABS. 2 DSGVO).</p>
+      <p>WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZUM BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT
+         WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN; DIES
+         GILT AUCH F&Uuml;R DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN, WERDEN
+         IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO).</p>
       <h3>Beschwerde&shy;recht bei der zust&auml;ndigen Aufsichts&shy;beh&ouml;rde</h3>
-      <p>Im Falle von
-         Verst&ouml;&szlig;en gegen
-         die DSGVO steht den
-         Betroffenen ein
-         Beschwerderecht bei einer
-         Aufsichtsbeh&ouml;rde,
-         insbesondere in dem
-         Mitgliedstaat ihres
-         gew&ouml;hnlichen
-         Aufenthalts, ihres
-         Arbeitsplatzes oder des Orts
-         des mutma&szlig;lichen
-         Versto&szlig;es zu. Das
-         Beschwerderecht besteht
-         unbeschadet anderweitiger
-         verwaltungsrechtlicher oder
-         gerichtlicher
-         Rechtsbehelfe.</p>
+      <p>Im Falle von Verst&ouml;&szlig;en gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbeh&ouml;rde,
+         insbesondere in dem Mitgliedstaat ihres gew&ouml;hnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutma&szlig;lichen
+         Versto&szlig;es zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.</p>
       <h3>Recht auf Daten&shy;&uuml;bertrag&shy;barkeit</h3>
-      <p>Sie haben das Recht, Daten, die wir auf Grundlage Ihrer
-         Einwilligung oder in Erf&uuml;llung eines Vertrags
-         automatisiert verarbeiten, an sich oder an einen Dritten
-         in einem g&auml;ngigen, maschinenlesbaren Format
-         aush&auml;ndigen zu lassen. Sofern Sie die
-         direkte &Uuml;bertragung der Daten an einen anderen
-         Verantwortlichen verlangen, erfolgt dies nur, soweit es
-         technisch machbar ist.</p>
+      <p>Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erf&uuml;llung eines Vertrags
+         automatisiert verarbeiten, an sich oder an einen Dritten in einem g&auml;ngigen, maschinenlesbaren Format
+         aush&auml;ndigen zu lassen. Sofern Sie die direkte &Uuml;bertragung der Daten an einen anderen
+         Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.</p>
       <h3>Auskunft, Berichtigung und L&ouml;schung</h3>
-      <p>Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen
-         jederzeit das Recht auf unentgeltliche Auskunft &uuml;ber
-         Ihre gespeicherten personenbezogenen Daten, deren Herkunft
-         und Empf&auml;nger und den Zweck der Datenverarbeitung und
-         ggf. ein Recht auf Berichtigung oder L&ouml;schung dieser
-         Daten. Hierzu sowie zu weiteren Fragen zum Thema
-         personenbezogene Daten k&ouml;nnen Sie sich jederzeit an uns
-         wenden.</p>
+      <p>Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft &uuml;ber
+         Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empf&auml;nger und den Zweck der Datenverarbeitung und
+         ggf. ein Recht auf Berichtigung oder L&ouml;schung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema
+         personenbezogene Daten k&ouml;nnen Sie sich jederzeit an uns wenden.</p>
       <h3>Recht auf Einschr&auml;nkung der Verarbeitung</h3>
-      <p>Sie haben das Recht, die Einschr&auml;nkung der
-         Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
-         Hierzu k&ouml;nnen Sie sich jederzeit an uns wenden. Das
-         Recht auf Einschr&auml;nkung der Verarbeitung besteht in
+      <p>Sie haben das Recht, die Einschr&auml;nkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+         Hierzu k&ouml;nnen Sie sich jederzeit an uns wenden. Das Recht auf Einschr&auml;nkung der Verarbeitung besteht in
          folgenden F&auml;llen:</p>
       <ul>
         <li>Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, ben&ouml;tigen wir
@@ -359,98 +186,71 @@ const Privacy = () => {
          nat&uuml;rlichen oder juristischen Person oder aus Gr&uuml;nden eines wichtigen &ouml;ffentlichen Interesses
          der Europ&auml;ischen Union oder eines Mitgliedstaats verarbeitet werden.</p>
       <h3>SSL- bzw. TLS-Verschl&uuml;sselung</h3>
-      <p>Diese Seite nutzt aus Sicherheitsgr&uuml;nden und zum Schutz
-         der &Uuml;bertragung vertraulicher Inhalte, wie zum Beispiel
-         Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber
-         senden, eine SSL- bzw. TLS-Verschl&uuml;sselung. Eine
-         verschl&uuml;sselte Verbindung erkennen Sie daran, dass die
-         Adresszeile des Browsers
-         von &bdquo;http://&ldquo; auf &bdquo;https://&ldquo; wechselt und
-         an dem Schloss-Symbol in Ihrer Browserzeile.</p>
-      <p>Wenn die SSL-
-         bzw.
-         TLS-Verschl&uuml;sselung
-         aktiviert ist,
-         k&ouml;nnen die
-         Daten, die Sie
-         an
-         uns &uuml;bermitteln,
-         nicht von
-         Dritten
-         mitgelesen
-         werden.</p>
+      <p>Diese Seite nutzt aus Sicherheitsgr&uuml;nden und zum Schutz der &Uuml;bertragung vertraulicher Inhalte, wie zum Beispiel
+         Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLS-Verschl&uuml;sselung. Eine
+         verschl&uuml;sselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers
+         von &bdquo;http://&ldquo; auf &bdquo;https://&ldquo; wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.</p>
+      <p>Wenn die SSL- bzw. TLS-Verschl&uuml;sselung aktiviert ist, k&ouml;nnen die Daten, die Sie an uns &uuml;bermitteln, nicht von
+         Dritten mitgelesen werden.</p>
       <h2>4. Datenerfassung auf dieser Website</h2>
       <h3>Kontaktformular</h3>
       <p>Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem
          Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks
          Bearbeitung der Anfrage und f&uuml;r den Fall von Anschlussfragen bei uns gespeichert.
          Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.</p>
-      <p>Die Verarbeitung
-         dieser Daten erfolgt
-         auf Grundlage von
-         Art. 6 Abs. 1 lit. b
-         DSGVO, sofern Ihre
-         Anfrage mit der
-         Erf&uuml;llung eines
-         Vertrags
-         zusammenh&auml;ngt
-         oder zur
-         Durchf&uuml;hrung
-         vorvertraglicher
-         Ma&szlig;nahmen
-         erforderlich ist. In
-         allen &uuml;brigen
-         F&auml;llen beruht
-         die Verarbeitung auf
-         unserem berechtigten
-         Interesse an der
-         effektiven
-         Bearbeitung der an
-         uns gerichteten
-         Anfragen (Art. 6
-         Abs. 1 lit. f DSGVO)
-         oder auf Ihrer
-         Einwilligung (Art. 6
-         Abs. 1 lit. a DSGVO)
-         sofern diese
-         abgefragt wurde; die
-         Einwilligung ist
-         jederzeit
-         widerrufbar.</p>
+      <p>Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre
+         Anfrage mit der Erf&uuml;llung eines Vertrags zusammenh&auml;ngt oder zur Durchf&uuml;hrung vorvertraglicher
+         Ma&szlig;nahmen erforderlich ist. In allen &uuml;brigen F&auml;llen beruht die Verarbeitung auf unserem berechtigten
+         Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO)
+         oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist
+         jederzeit widerrufbar.</p>
       <p>Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur L&ouml;schung
          auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck f&uuml;r die Datenspeicherung
          entf&auml;llt (z.&nbsp;B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche
          Bestimmungen &ndash; insbesondere Aufbewahrungsfristen &ndash; bleiben unber&uuml;hrt.</p>
       <h3>Anfrage per E-Mail, Telefon oder Telefax</h3>
-      <p>Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren,
-         wird Ihre Anfrage inklusive aller daraus hervorgehenden
-         personenbezogenen Daten (Name, Anfrage) zum Zwecke der
-         Bearbeitung Ihres Anliegens bei uns gespeichert und
-         verarbeitet. Diese Daten geben wir nicht ohne Ihre
-         Einwilligung weiter.</p>
-      <p>Die Verarbeitung dieser Daten
-         erfolgt auf Grundlage von Art. 6
-         Abs. 1 lit. b DSGVO, sofern Ihre
-         Anfrage mit der Erf&uuml;llung
-         eines Vertrags zusammenh&auml;ngt
-         oder zur Durchf&uuml;hrung
-         vorvertraglicher Ma&szlig;nahmen
-         erforderlich ist. In
-         allen &uuml;brigen F&auml;llen
-         beruht die Verarbeitung auf
-         unserem berechtigten Interesse an
-         der effektiven Bearbeitung der an
-         uns gerichteten Anfragen (Art. 6
-         Abs. 1 lit. f DSGVO) oder auf
-         Ihrer Einwilligung (Art. 6 Abs. 1
-         lit. a DSGVO) sofern diese
-         abgefragt wurde; die Einwilligung
+      <p>Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden
+         personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und
+         verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.</p>
+      <p>Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der
+         Erf&uuml;llung
+         eines Vertrags zusammenh&auml;ngt oder zur Durchf&uuml;hrung vorvertraglicher Ma&szlig;nahmen erforderlich ist.
+         In
+         allen &uuml;brigen F&auml;llen beruht die Verarbeitung auf unserem berechtigten Interesse an
+         der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf
+         Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung
          ist jederzeit widerrufbar.</p>
       <p>Die von Ihnen an uns per Kontaktanfragen &uuml;bersandten Daten verbleiben bei uns, bis Sie uns zur
          L&ouml;schung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck f&uuml;r die
          Datenspeicherung entf&auml;llt (z.&nbsp;B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende
          gesetzliche Bestimmungen &ndash; insbesondere gesetzliche Aufbewahrungsfristen &ndash; bleiben
          unber&uuml;hrt.</p>
+      <h2>5. WhatsApp Datenschutzerklärung</h2>
+      <p>Wir verwenden auf unserer Website den Instant-Messaging-Dienst WhatsApp. Dienstanbieter ist das amerikanische
+         Unternehmen WhatsApp Inc. ein Tochterunternehmen von Meta Platforms Inc. Für den europäischen Raum ist das
+         Unternehmen WhatsApp Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland
+         verantwortlich.</p>
+
+      <p>WhatsApp verarbeitet Daten von Ihnen u.a. auch in den USA. Wir weisen darauf hin, dass nach Meinung des
+         Europäischen Gerichtshofs derzeit kein angemessenes Schutzniveau für den Datentransfer in die USA besteht. Dies
+         kann mit verschiedenen Risiken für die Rechtmäßigkeit und Sicherheit der Datenverarbeitung einhergehen.</p>
+
+      <p>Als Grundlage der Datenverarbeitung bei Empfängern mit Sitz in Drittstaaten (außerhalb der Europäischen Union,
+         Island, Liechtenstein, Norwegen, also insbesondere in den USA) oder einer Datenweitergabe dorthin verwendet
+         WhatsApp sogenannte Standardvertragsklauseln (= Art. 46. Abs. 2 und 3 DSGVO). Standardvertragsklauseln
+         (Standard Contractual Clauses – SCC) sind von der EU-Kommission bereitgestellte Mustervorlagen und sollen
+         sicherstellen, dass Ihre Daten auch dann den europäischen Datenschutzstandards entsprechen, wenn diese in
+         Drittländer (wie beispielsweise in die USA) überliefert und dort gespeichert werden. Durch diese Klauseln
+         verpflichtet sich WhatsApp, bei der Verarbeitung Ihrer relevanten Daten, das europäische Datenschutzniveau
+         einzuhalten, selbst wenn die Daten in den USA gespeichert, verarbeitet und verwaltet werden. Diese Klauseln
+         basieren auf einem Durchführungsbeschluss der EU-Kommission. Sie finden den Beschluss und die entsprechenden
+         Standardvertragsklauseln u.a. hier: https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de</p>
+
+      <p>Informationen zur Datenübermittlung bei WhatsApp, welche den Standardvertragsklauseln entsprechen, finden Sie
+         unter https://www.whatsapp.com/legal/business-data-transfer-addendum-20210927</p>
+
+      <p>Mehr über die Daten, die durch die Verwendung von WhatsApp verarbeitet werden, erfahren Sie in der Privacy
+         Policy auf https://www.whatsapp.com/privacy</p>
       <p>Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>
     </section>
   );

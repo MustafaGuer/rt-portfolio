@@ -2,9 +2,10 @@ import {useContext} from "react";
 import {ThemeContext} from "../../context/ThemeContext";
 import TagCloudComponent from "./TagCloudComponent";
 import Card from "../UI/Card";
-import styles from './About.module.scss'
-import profileImg from '../../assets/images/mustafa.jpg'
+import styles from './About.module.scss';
+import profileImg from '../../assets/images/mustafa.jpg';
 import hacker from '../../assets/images/hacker.jpg';
+import resume from '../../assets/resume/CV.pdf';
 
 const About = () => {
   const {theme} = useContext(ThemeContext)
@@ -20,6 +21,9 @@ const About = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore inventore mollitia quasi quisquam
                similique. Ad aliquid consectetur consequuntur delectus doloribus earum id numquam quia repellat tenetur?
                Doloremque exercitationem id recusandae.</p>
+            <div className={styles.action}>
+              <a href={resume} target='_blank' rel='noopener noreferrer'>Resume</a>
+            </div>
           </Card>
         </div>
         <div className={`text-sphere ${styles.sphere}`}>

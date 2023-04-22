@@ -1,3 +1,5 @@
+@use '../../styles/colors' as *;
+
 .section {
   padding-top: 60px;
 
@@ -49,5 +51,22 @@
 
   .sphere {
     flex: 1;
+  }
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+  a {
+    background-color: $orange-500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 225ms ease-in-out;
+
+    &:hover, &:active {
+      background-color: $orange-600;
+    }
   }
 }
