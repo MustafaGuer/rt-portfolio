@@ -1,7 +1,7 @@
+import Imprint from "../components/Imprint/Imprint";
+
 const ImprintPage = () => {
-  return (
-    <></>
-  );
+  return <Imprint />;
 };
 
 export default ImprintPage;

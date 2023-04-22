@@ -1,0 +1,10 @@
+.privacy {
+  min-height: calc(100vh - 111px);
+  min-height: -webkit-calc(100vh - 111px);
+  min-height: -moz-calc(100vh - 111px);
+  display: flex;
+  row-gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 2rem;
+}

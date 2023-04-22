@@ -1,7 +1,7 @@
+import Privacy from "../components/Privacy/Privacy";
+
 const PrivacyPage = () => {
-  return (
-    <></>
-  );
+  return <Privacy />
 };
 
 export default PrivacyPage;
