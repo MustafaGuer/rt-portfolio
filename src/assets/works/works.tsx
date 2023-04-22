@@ -23,7 +23,7 @@ export const works: Work[] = [
     long_desc: `My personal website to introduce myself and show my projects.`,
     technologies: ['React JS', 'TypeScript', 'Hooks', 'Css Modules', 'React Context Api', 'EmailJS'],
     github_link: 'https://github.com/MustafaGuer/rt-portfolio',
-    work_link: 'https://mychauffeurservice.vercel.app/',
+    work_link: 'https://www.mustafaguer.com',
     image: myPage,
     image_alt: 'My Homepage Preview'
   }
