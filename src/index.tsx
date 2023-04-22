@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {RootLayout} from "./components/Layout/RootLayout";
 import ThemeContextProvider from "./context/ThemeContext";
 
 const root = ReactDOM.createRoot(
@@ -12,9 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ThemeContextProvider>
-      <RootLayout>
         <App />
-      </RootLayout>
     </ThemeContextProvider>
   </React.StrictMode>
 );

@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 import github from '../../assets/icons/github-mark-white.svg'
 import linkedin from '../../assets/icons/linkedin.svg';
 import whatsapp from '../../assets/icons/whatsapp.svg';
@@ -15,8 +17,8 @@ const Footer = () => {
           <time>{year}</time>
           &lt;Mustafa Gür /&gt;
         </span>
-        <span>Impressum</span>
-        <span>Datenschutzerklärung</span>
+        <Link to={'/imprint'}>Impressum</Link>
+        <Link to={'/privacy'}>Datenschutzerklärung</Link>
       </div>
       <div className={styles.social}>
         <a href='mailto:mustafaguer@outlook.com'>mustafaguer@outlook.com</a>

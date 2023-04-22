@@ -4,6 +4,7 @@ import {ThemeContext} from "../../context/ThemeContext";
 import styles from './MainHeader.module.scss';
 import DarkModeIcon from "../../assets/icons/DarkModeIcon";
 import LightModeIcon from "../../assets/icons/LightModeIcon";
+import {Link} from "react-router-dom";
 
 export const MainHeader = () => {
   const {theme, setThemeMode} = useContext(ThemeContext);
@@ -29,10 +30,10 @@ export const MainHeader = () => {
         <nav>
           <span className={styles.logo}>MG</span>
           <ul>
-            <li><a href='#home'>Home</a></li>
-            <li><a href='#about'>About</a></li>
-            <li><a href='#works'>Works</a></li>
-            <li><a href='#contact'>Contact</a></li>
+            <li><a href='/'>Home</a></li>
+            <li><a href='/#about'>About</a></li>
+            <li><a href='/#works'>Works</a></li>
+            <li><a href='/#contact'>Contact</a></li>
             <li className={styles.switcher}>
               <DarkModeIcon />
               <label>
@@ -56,10 +57,10 @@ export const MainHeader = () => {
         className={`${styles.dropdown_menu} ${ddOpen ? styles.open : ''} ${theme === 'dark' ? 'bgDarkGlass' : 'bgLightGlass'}`}>
         {/*<div id='dropdown' className={styles.dropdown_menu}>*/}
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#works">Works</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/#home">Home</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#works">Works</a></li>
+          <li><a href="/#contact">Contact</a></li>
           <li className={styles.switcher}>
             <DarkModeIcon />
             <label>
