@@ -28,7 +28,7 @@ export const MainHeader = () => {
     <header className={`${styles.header} ${theme === 'dark' ? 'bgDarkGlass txtDark' : 'bgLightGlass txtLight'}`}>
       <div className={styles.navbar}>
         <nav>
-          <span className={styles.logo}>MG</span>
+          <HashLink smooth to='/#home'><span className={styles.logo}>MG</span></HashLink>
           <ul>
             <li><HashLink smooth to='/#home'>Home</HashLink></li>
             <li><HashLink smooth to='/#about'>About</HashLink></li>

@@ -12,8 +12,10 @@
     position: relative;
     padding: 0 2rem;
 
-    a:hover {
-      color: orange;
+    li {
+      a:hover {
+        color: orange;
+      }
     }
 
     .logo {
