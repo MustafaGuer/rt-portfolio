@@ -7,7 +7,7 @@ const Card: React.FC<{ children: React.ReactNode, rounded:boolean }> = (props) =
 
   return (
     <div
-      className={`${styles.card} ${props.rounded && styles.rounded} ${theme === 'dark' ? 'bgLightGlass txtDark shadowDark' : 'bgDarkGlass txtDark shadowLight'}`}>
+      className={`${styles.card} ${props.rounded && styles.rounded} ${theme === 'dark' ? 'shadowDark txtDark' : 'shadowLight txtLight'}`}>
       {props.children}
     </div>
   );

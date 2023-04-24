@@ -20,7 +20,7 @@ export const works: Work[] = [
     id: 'w2',
     short_desc: 'Personal Portfolio Page',
     title: 'mustafaguer.com',
-    long_desc: `My personal website to introduce myself and show my projects.`,
+    long_desc: `My personal website to introduce me, myself and i. Some of my projects are also linked on the website.`,
     technologies: ['React JS', 'TypeScript', 'Hooks', 'Css Modules', 'React Context Api', 'EmailJS'],
     github_link: 'https://github.com/MustafaGuer/rt-portfolio',
     work_link: 'https://www.mustafaguer.com',

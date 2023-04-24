@@ -18,16 +18,16 @@ const Works = () => {
       <div className={styles.works}>
         <h2>My Works:</h2>
         {works.map((work) => (
-          <div key={work.id} className={styles.workItem}>
+          <div key={work.id} className={`${styles.workItem} ${theme === 'dark' ? 'shadowDark' : 'shadowLight'}`}>
             <div className={styles.workImgBox}>
               <img src={work.image} alt={work.image_alt} width={150} height={200} />
             </div>
             <div className={styles.workDescription}>
               <h4>{work.short_desc}</h4>
               <h3>{work.title}</h3>
-              <Card rounded={false}>
+              <div className={styles.descriptionBox}>
                 <p>{work.long_desc}</p>
-              </Card>
+              </div>
               <div className={styles.workTechnologies}>
                 {work.technologies.map((t) => (<span key={t}>{t}</span>))}
               </div>

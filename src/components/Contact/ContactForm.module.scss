@@ -1,81 +1,91 @@
 @use '../../styles/colors' as *;
 
 .form {
-  width: 18.75rem;
+  width: 100%;
 
-  .control {
-    margin-bottom: 1rem;
-
-    label, input, textarea {
-      display: block;
-      width: 100%;
-    }
-
-    label {
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-    }
-
-    input, textarea {
-      font: inherit;
-      padding: 0.5rem;
-      border-radius: 4px;
-      border: 1px solid #ccc
-    }
-
-    input:focus, textarea:focus {
-      outline: none;
-      border-color: #240370;
-      background-color: #e0d4fd;
-    }
+  @media(min-width: 768px) {
+    width: 18.75rem;
   }
 
-  .actions {
-    margin-top: 2rem;
+}
+
+.control {
+  margin-bottom: 1rem;
+
+  label, input, textarea {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  input, textarea {
+    font: inherit;
+    padding: 0.5rem;
+    border:none;
+    //border-radius: 4px;
+    //border: 1px solid #ccc
+    border-bottom: 1px solid;
+  }
+
+  input:focus, textarea:focus {
+    outline: none;
+    //border-color: #240370;
+    //background-color: #e0d4fd;
+  }
+}
+
+.actions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+
+  button {
+    font: inherit;
+    position: relative;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    background-color: $nice-green;
+    color: $white;
+    border: 2px solid $nice-green;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 225ms ease-in-out;
 
-    button {
-      font: inherit;
-      position: relative;
-      display: flex;
-      align-items: center;
-      background-color: $orange-600;
-      color: $white;
-      border: 2px solid $orange-500;
-      padding: 0.5rem 1.5rem;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: border-color 225ms ease-in-out;
+    &:hover, &:active {
+      border-color: $white;
+    }
 
-      &:hover, &:active {
-        border-color: $white;
-      }
-
-      &:disabled, &:disabled:hover, &:disabled:active {
-        background-color: #ccc;
-        color: #292929;
-        border-color: #ccc;
-        cursor: not-allowed;
-      }
+    &:disabled, &:disabled:hover, &:disabled:active {
+      background-color: #ccc;
+      color: #292929;
+      border-color: #ccc;
+      cursor: not-allowed;
     }
   }
 }
 
 .invalid {
   input, textarea {
-    border: 1px solid #b40e0e;
-    background-color: #fddddd;
+    //border: 1px solid #b40e0e;
+    //background-color: #fddddd;
+    border-color: #b40e0e;
   }
 }
 
 .invalid {
   input:focus, textarea:focus {
-    border-color: #ff8800;
-    background-color: #fbe8d2;
+    //border-color: #ff8800;
+    //background-color: #fbe8d2;
   }
 }
 
 .error-text {
   color: #b40e0e;
+  margin-top: 0.25rem;
 }

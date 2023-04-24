@@ -11,7 +11,7 @@ const About = () => {
   const {theme} = useContext(ThemeContext)
 
   return (
-    <section id='about' className={`${styles.section} ${theme === 'dark' ? 'bgDark txtDark' : 'bgLight txtLight'}`}>
+    <section id='about' className={`${styles.section} ${theme === 'dark' ? 'bgDark' : 'bgLight'}`}>
       <div className={styles.aboutBox}>
         <img className={styles.profileImg} src={profileImg} alt='Profile' />
         <div className={styles.profileBox}>

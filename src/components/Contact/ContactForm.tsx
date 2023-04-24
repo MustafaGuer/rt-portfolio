@@ -97,7 +97,7 @@ const ContactForm: React.FC<{}> = () => {
 
   return (
     <Card rounded>
-      <form ref={form} onSubmit={submitHandler} className={styles.form}>
+      <form ref={form} onSubmit={submitHandler} className={`${styles.form} ${theme === 'dark' ? 'txtDark' : 'txtLight'}`}>
         <div className={`${styles.control} ${nameInputHasError && styles.invalid}`}>
           <label htmlFor={'name'}>Your Name</label>
           <input
@@ -106,6 +106,8 @@ const ContactForm: React.FC<{}> = () => {
             onChange={nameChangedHandler}
             onBlur={nameBlurHandler}
             value={enteredName}
+            className={theme === 'dark' ? 'txtDark' : 'txtLight'}
+            placeholder={'John Doe'}
           />
           {nameInputHasError && <p className={`${styles['error-text']}`}>Name must not be empty!</p>}
         </div>
@@ -117,6 +119,8 @@ const ContactForm: React.FC<{}> = () => {
             onChange={emailChangeHandler}
             onBlur={emailBlurHandler}
             value={enteredEmail}
+            className={theme === 'dark' ? 'txtDark' : 'txtLight'}
+            placeholder={'doe@foo.bar'}
           />
           {emailInputHasError &&
             <p className={`${styles['error-text']}`}>Email must be a valid form! (e.g. info@foo.bar)</p>}
@@ -130,17 +134,19 @@ const ContactForm: React.FC<{}> = () => {
             onBlur={messageBlurHandler}
             value={enteredMessage}
             rows={3}
+            className={theme === 'dark' ? 'txtDark' : 'txtLight'}
+            placeholder={'Hi Mustafa, let\'s work together ;)'}
           ></textarea>
           {messageInputHasError && <p className={`${styles['error-text']}`}>Message must not be empty!</p>}
         </div>
         <div className={styles.actions}>
-          <button disabled={!formIsValid}>Send Message
+          <button disabled={!formIsValid}>Let's connect
             <Comment
               visible={isSending}
               height={23}
               width={23}
               ariaLabel={'email-sending'}
-              backgroundColor={'#240370'}
+              backgroundColor={'#014a45'}
               color={'#fff'}
               wrapperStyle={{position: 'absolute', top: '0', right: '0'}}
             />
