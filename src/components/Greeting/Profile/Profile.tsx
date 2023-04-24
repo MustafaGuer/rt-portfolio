@@ -6,7 +6,7 @@ import profileImg from '../../../assets/images/mustafa.jpg';
 const Profile = () => {
   const [text, setText] = useState('')
   const [fulltext] = useState(
-    'Hi, this is Mustafa Gür. Passionate Frontend Developer!'
+    'Welcome to the Matrix of Mustafa Gür, Passionate Web Developer!'
   )
   const [index, setIndex] = useState(0)
   const [go, setGo] = useState(false);

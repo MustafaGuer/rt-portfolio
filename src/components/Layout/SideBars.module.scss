@@ -1,0 +1,83 @@
+.leftContainer {
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  left: 10px;
+  background: transparent;
+  z-index: 100;
+  display: flex;
+  align-items: flex-end;
+  color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+
+  & > div {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    row-gap: 10px;
+
+    & > div {
+      border-right: 2px solid;
+      border-radius: 50%;
+      width: 2px;
+      height: 7rem;
+      margin: 1.5rem 0;
+    }
+  }
+}
+
+.rightContainer {
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  right: 10px;
+  background: transparent;
+  z-index: 100;
+  display: flex;
+  align-items: flex-end;
+  color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+
+  & > div {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    row-gap: 10px;
+
+    a, span {
+      writing-mode: vertical-lr;
+    }
+
+    span {
+      line-height: 30px;
+    }
+
+    img {
+      margin-top: -15px;
+    }
+
+    div {
+      border-right: 2px solid;
+      border-radius: 50%;
+      width: 2px;
+
+      &:first-of-type {
+        height: 5rem;
+        margin-top: 1.5rem;
+      }
+
+      &:last-of-type {
+        margin-top: 0.2rem;
+        height: 3rem;
+      }
+    }
+  }
+}

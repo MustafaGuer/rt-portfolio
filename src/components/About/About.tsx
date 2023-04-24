@@ -16,7 +16,7 @@ const About = () => {
         <img className={styles.profileImg} src={profileImg} alt='Profile' />
         <div className={styles.profileBox}>
           <Card rounded>
-            <h2>Hi, I'm Mustafa.</h2>
+            <h2>Hello Agent, my name is Mustafa</h2>
             <img src={hacker} alt='Profile' />
             <p>
               I worked as a cab driver for five years. In 2021, I found myself passionate

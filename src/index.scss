@@ -37,6 +37,10 @@ ul {
   list-style-type: none;
 }
 
+.borderLight {
+  border-color: $dark-900;
+}
+
 .txtLight {
   color: $dark-900;
 }
@@ -49,6 +53,10 @@ ul {
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
+}
+
+.borderDark {
+  border-color: $white;
 }
 
 .txtDark {

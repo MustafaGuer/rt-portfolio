@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 
 import github from '../../assets/icons/github-mark-white.svg'
-import linkedin from '../../assets/icons/linkedin.svg';
+import linkedin from '../../assets/icons/linkedinWhite.svg';
 import whatsapp from '../../assets/icons/whatsapp.svg';
 
 import styles from './Footer.module.scss';
