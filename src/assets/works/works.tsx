@@ -12,7 +12,7 @@ export const works: Work[] = [
     convenient online payment with the Paypal Api, make callback appointments and much more.`,
     technologies: ['Next JS', 'Redux', 'Tailwind', 'React Bootstrap', 'Google Maps', 'Paypal', 'Nodemailer'],
     github_link: 'https://github.com/MustafaGuer',
-    work_link: 'https://mychauffeurservice.vercel.app/',
+    work_link: 'https://mychauffeurservice.de/',
     image: chauffeurservice,
     image_alt: 'MyChauffeurservice Website Preview'
   },
