@@ -4,7 +4,7 @@ import TagCloudComponent from "./TagCloudComponent";
 import Card from "../UI/Card";
 import styles from './About.module.scss';
 import profileImg from '../../assets/images/mustafa.jpg';
-import hacker from '../../assets/images/hacker.jpg';
+import image from '../../assets/images/coding.jpg';
 import resume from '../../assets/resume/CV.pdf';
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
         <div className={styles.profileBox}>
           <Card rounded>
             <h2>Hello Agent, my name is Mustafa</h2>
-            <img src={hacker} alt='Profile' />
+            <img src={image} alt='Profile' />
             <p>
               I worked as a cab driver for five years. In 2021, I found myself passionate
               about web development and went through an advanced training to become a web developer, specifically in

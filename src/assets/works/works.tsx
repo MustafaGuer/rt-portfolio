@@ -1,7 +1,7 @@
 import Work from "../../models/Work";
 
 import chauffeurservice from '../images/myChauffeurservice.jpg';
-import myPage from '../images/hacker_matrix_small.jpg';
+import myPage from '../images/website.png';
 
 export const works: Work[] = [
   {
